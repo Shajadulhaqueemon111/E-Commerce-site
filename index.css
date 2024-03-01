@@ -1,0 +1,164 @@
+ .search1 {
+     width: 300px;
+     height: 56px;
+
+     border-radius: 100px;
+     border: 1px;
+     gap: 24px;
+     margin-top: 20px;
+     font-size: 20px;
+     font: bold;
+
+ }
+
+ .color1 {
+     color: white;
+ }
+
+ .color {
+     color: white;
+
+     margin-left: 2px;
+
+
+     gap: 4px;
+
+ }
+
+ .search-container {
+     position: relative;
+ }
+
+ .search-icon {
+     position: absolute;
+     top: 60%;
+     left: 10px;
+     Padding: 16px, 24px, 16px, 24px;
+
+     transform: translateY(-50%);
+     color: #888;
+ }
+
+ .search1 {
+     padding-left: 30px;
+ }
+
+
+ .flex1 {
+     display: flex;
+
+     margin-top: 10px;
+ }
+
+ .btn1 {
+     width: 96px;
+     height: 32px;
+
+
+ }
+
+ .img-1 {
+     width: 886px;
+     height: 426px;
+     top: 426px;
+     padding: 32px;
+     gap: 133px;
+
+
+ }
+
+ .circle {
+     width: 88px;
+     height: 88px;
+     padding: 24px;
+     border-radius: 999px;
+     gap: 8px;
+
+ }
+
+ .btn1 {
+     width: 318px;
+     height: 48px;
+     padding: 12px, 20px, 12px, 20px;
+
+ }
+
+ .img-2 {
+     width: 318px;
+     height: 257px;
+
+ }
+
+ .category {
+     width: 236px;
+     height: 600px;
+     padding: 24px;
+     gap: 20px;
+     background-color: #FFFFFF;
+
+ }
+
+ .cart {
+     width: 366px;
+     height: 599px;
+     padding: 24px;
+     gap: 24px;
+
+ }
+
+ .veryfied-icon {
+     width: 20px;
+     height: 20px;
+     border: 1.5px;
+
+ }
+
+ .box-1 {
+     width: 366px;
+     height: 61px;
+     padding: 8px, 16px, 8px, 16px;
+     gap: 8px;
+     margin-top: 10px;
+     margin-left: 12px;
+
+ }
+
+ .img-size {
+     width: 200px;
+     height: 244px;
+     gap: 16px;
+
+ }
+
+ @media (max-width: 570px) {
+
+
+     .count {
+         flex-direction: column;
+     }
+
+     .count-1 {
+         flex-direction: column;
+     }
+
+
+ }
+
+ @media (max-width: 320px) {
+
+
+     .count {
+         flex-direction: column;
+     }
+
+     .count-1 {
+         flex-direction: column;
+     }
+
+ }
+
+ @media only screen and (max-width: 992px) {
+     .count {
+         flex-direction: column;
+     }
+ }
