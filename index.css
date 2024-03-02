@@ -131,7 +131,7 @@
  }
 
  .image-size-1 {
-     width: 346px;
+     width: 300px;
      height: 305px;
      gap: 8px;
 
@@ -145,26 +145,65 @@
  .size-2 {
      width: 200px;
      height: 40px;
-    
+
      border-radius: 8px;
-     
+
  }
 
  .add-to-cart {
      width: 300px;
      height: 40px;
-     padding: 8px;
+     padding: 24px;
      gap: 10px;
      background-color: #194E8A;
 
  }
-.card-1{
-    width: 756px;;
-height: 353px;
-padding: 24px;
-gap: 16px;
 
-}
+ .card-1 {
+
+
+     padding: 8px;
+     gap: 8px;
+     background-color: aliceblue;
+
+ }
+
+ .sufa-1 {
+     width: 700px;
+     height: 226px;
+
+ }
+
+ .img-size-3 {
+     width: 170px;
+     height: 180px;
+
+ }
+
+ .selling {
+     width: 400px;
+     height: 180px;
+     padding: 0px, 16px, 0px, 0px;
+     border: 1px;
+
+     background-color: #E6E7E7;
+
+ }
+
+ .on-selling {
+     width: 1, 536px;
+     height: 528px;
+     gap: 24px;
+
+
+ }
+
+ .banner {
+     width: 500px;
+     height: 520px;
+
+ }
+
  @media (max-width: 570px) {
 
 
