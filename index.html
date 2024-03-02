@@ -52,42 +52,28 @@
 </head>
 
 <body>
-    <header class="flex">
-        <div class="swiper mySwiper p-4">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore</div>
-                <div class="swiper-slide">Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore</div>
-                <div class="swiper-slide">Lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore</div>
+    <header class="flex justify-around ">
 
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+        <div>
+            <img src="./Vector-left.png" alt="">
         </div>
 
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae
+        </div>
 
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-        </script>
-
-
-
+        <div>
+            <img src="./Vector.png" alt="">
+        </div>
     </header>
     <nav class="bg-[#194E8A] aling-item-center flex count justify-around p-4 shadow-md gap-4">
         <div class="mt-6 flex ml-5">
             <div class="">
                 <img src="./Group-9.png" alt="">
             </div>
-           <div class="mt-2">
-            <a href="/home" class="text-white font-bold text-xl ">Essence</a>
-           </div>
+            <div class="mt-2">
+                <a href="/home" class="text-white font-bold text-xl ">Essence</a>
+            </div>
         </div>
 
         <div class="search-container mb-6 ">
@@ -156,7 +142,7 @@
 
 
         </container>
-        <section class="mt-6 shadow-sm ml-3 gap-10 flex count">
+        <section class="mt-6 shadow-sm  gap-10 flex count">
             <div class="category">
                 <div class=" mb-4">
                     <p> <i class="fa-solid fa-award"></i>All Categories</p>
@@ -202,17 +188,22 @@
                 <div class="flex count bg-[#FFFFFF] p-2 ">
                     <div class="">
                         <h1 class="text-5xl font-bold text-[#194E8A] p-2 mt-20">Kitchen <br> Savings.</h1>
-                        <button class="bg-[#194E8A] p-3 mt-10">By Now(5% off)</button>
+                        <button class="bg-[#194E8A] p-3 mt-10 text-white">By Now(5% off)</button>
                     </div>
                     <div>
                         <img class="img-1" src="./image-1.jpeg" alt="">
                     </div>
 
                 </div>
-                <div class="flex count-1 align-item-center ml-10">
-                    <div>
-                        <img class="circle" src="./Group 229.png" alt="">
-                        <h1>Brand Name</h1>
+                <div class="flex count-1 gap-10  ml-2">
+                    <div class="flex gap-2">
+                        <div class="mt-10">
+                            <img src="./Vector-left.png" alt="">
+                        </div>
+                        <div class="gap-2">
+                            <img class="circle" src="./Group 229.png" alt="">
+                            <h1 class="gap-4 ml-2">Brand Name</h1>
+                        </div>
                     </div>
                     <div>
                         <img class="circle" src="./Apel.png" alt="">
@@ -227,12 +218,19 @@
                         <h1>Brand Name</h1>
                     </div>
                     <div>
-                        <img class="circle" src="./Group.png" alt="">
+                        <img class="circle" src="./Biye.png" alt="">
                         <h1>Brand Name</h1>
                     </div>
-                    <div>
-                        <img class="circle" src="./images-8.png" alt="">
-                        <h1>Brand Name</h1>
+                    <div class="flex">
+                        <div>
+                            <img class="circle" src="./images-8.png" alt="">
+                            <h1 class="gap-4 ml-2">Brand Name</h1>
+                        </div>
+
+                        <div>
+                            <img class="mt-8 gap-2" src="./Vector.png" alt="">
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -245,7 +243,7 @@
                 </div>
                 <div class="mt-20">
                     <img class="img-2" src="./image-9.jpeg" alt="">
-                    <button class="btn1 bg-[#194E8A] mt-4">Add To Cart</button>
+                    <button class="btn1 bg-[#194E8A] mt-4 text-white">Add To Cart</button>
                 </div>
             </div>
         </section>
@@ -336,8 +334,11 @@
                     <h1 class="ml-20">Texture</h1>
                 </div>
                 <div class="img-size">
+
                     <img src="./image-22.png" alt="">
                     <h1 class="ml-20">Potrate</h1>
+
+
                 </div>
             </div>
         </section>
@@ -397,8 +398,9 @@
 
                         </div>
                         <div class="mt-10">
-                            
-                            <button class="add-to-cart text-white p-4"><i class="fa-solid fa-cart-shopping text-white"></i>Add To Cart</button>
+
+                            <button class="add-to-cart text-white p-4"><i
+                                    class="fa-solid fa-cart-shopping text-white"></i>Add To Cart</button>
                         </div>
                     </div>
 
@@ -455,7 +457,8 @@
 
                         </div>
                         <div class="mt-10">
-                            <button class="add-to-cart text-white p-4 gap-2"><i class="fa-solid fa-cart-shopping text-white"></i>Add To Cart</button>
+                            <button class="add-to-cart text-white p-4 gap-2"><i
+                                    class="fa-solid fa-cart-shopping text-white"></i>Add To Cart</button>
                         </div>
                     </div>
 
@@ -468,257 +471,627 @@
 
         <!-- sufa section -->
 
-        <section >
-         <div class="flex count mt-6 gap-8 ml-6">
-            <div >
-                <img class="sufa-1" src="./image-25.png" alt="">
+        <section>
+            <div class="flex count mt-6 gap-8 ml-6">
+                <div>
+                    <img class="sufa-1" src="./image-25.png" alt="">
+                </div>
+                <div>
+                    <img class="sufa-1" src="./image-26.png" alt="">
+                </div>
             </div>
-            <div >
-                <img class="sufa-1" src="./image-26.png" alt="">
-            </div>
-         </div>
         </section>
 
         <!-- On Selling Products -->
 
-        <section class="mt-6 ml-6">
+        <section class="mt-6 ml-10">
             <div>
-               <h1 class="text-xl font-bold">On Selling Products</h1>
+                <h1 class="text-xl font-bold">On Selling Products</h1>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
-               
-              
-               
+
+
+
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-29.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
-             
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-30.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
-             
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-31.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-32.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-33.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-34.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-35.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-36.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="flex selling">
                     <div>
                         <img class="img-size-3" src="./image-37.png" alt="">
                     </div>
                     <div class="p-4 ">
-                  
+
                         <h1 class="font-bold">Wireless Bluetooth Headset Single</h1>
                         <p>Wireless Bluetooth Headset Single</p>
-                 
 
-                     <div class="flex gap-3">
-                        <p class="text-xl font-bold">$8</p>
-                        <p class="text-xl">$16-50%</p>
-                     </div>
-                   </div>
-               
-              </div>
-             
+
+                        <div class="flex gap-3">
+                            <p class="text-xl font-bold">$8</p>
+                            <p class="text-xl">$16-50%</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
         <!-- On Selling Product section -->
 
-        <section class="mt-6 ml-4">
+        <section class="mt-6 ml-10">
             <div>
                 <h1 class="text-xl font-bold"> On Selling Product</h1>
             </div>
-        <div class="mt-6 flex count on-selling">
-            <div class="gap-4">
-                <div>
-              <img  src="./image-40.png" alt="">
+            <div class="mt-6 flex count on-selling">
+                <div class="gap-4">
+                    <div>
+                        <img class="on-seeling-1" src="./image-40.png" alt="">
+                    </div>
+                    <div class="mt-3">
+                        <img class="on-seeling-1" src="./image-40.png" alt="">
+                    </div>
                 </div>
-                <div class="mt-3">
-                 <img src="./image-40.png" alt="">
-                </div>
-            </div>
 
-            <div>
-                <img class="banner" src="./image-41.png" alt="">
-            </div>
-
-            <div class="gap-4">
                 <div>
-              <img src="./image-40.png" alt="">
+                    <img class="banner" src="./image-41.png" alt="">
                 </div>
-                <div class="mt-3">
-                 <img src="./image-40.png" alt="">
+
+                <div class="gap-4 ">
+                    <div>
+                        <img class="on-seeling-1" src="./image-40.png" alt="">
+                    </div>
+                    <div class="mt-3">
+                        <img class="on-seeling-1" src="./image-40.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
         </section>
-        
+
         <!-- Apple product section -->
 
         <section class="mt-10 ml-4">
-          <div class="mt-4 flex">
-           <div>
-            <img  class="group group-image" src="./Group 8.png" alt="">
-           </div>
-            <div>
-                <h1 class="text-xl mt-3 gap-3 ml-2 font-bold">Apple</h1>
+            <div class="mt-4 flex">
+                <div>
+                    <img class="group group-image" src="./Group 8.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-xl mt-3 gap-3 ml-2 font-bold">Apple</h1>
+                </div>
             </div>
-          </div>
 
-          <div class="mt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            <div>
-                <img src="./image-42.png" alt="">
-                <h1 class="font-bold ml-20">Bluest</h1>
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div>
+                    <img src="./image-42.png" alt="">
+                    <h1 class="font-bold ml-20">Bluest</h1>
+                </div>
+                <div>
+                    <img src="./image-43.png" alt="">
+                    <h1 class="font-bold ml-20">Aneth</h1>
+                </div>
+                <div>
+                    <img src="./image-44.png" alt="">
+                    <h1 class="font-bold ml-20">Aubergines</h1>
+                </div>
+                <div>
+                    <img src="./image-45.png" alt="">
+                    <h1 class="font-bold ml-20">Fraises</h1>
+                </div>
+                <div>
+                    <img src="./image-46.png" alt="">
+                    <h1 class="font-bold ml-20">Radis</h1>
+                </div>
+                <div>
+                    <img src="./image-47.png" alt="">
+                    <h1 class="font-bold ml-20">Fèves vertes</h1>
+                </div>
+
             </div>
+
+        </section>
+
+        <!-- Shop All Categories -->
+
+        <section class="ml-6 mt-10">
             <div>
-                <img src="./image-43.png" alt="">
-                <h1 class="font-bold ml-20">Aneth</h1>
+                <h1 class="text-xl font-bold">Shop All Categories</h1>
             </div>
+            <div class="mt-6 gap-2 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-48.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Furnitures</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-49.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Space</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-50.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Texture</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-51.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Minimal</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-52.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Food</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-53.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Art</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-54.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Architecture</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-55.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Nature</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-56.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Colorful</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-63.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Interior</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-58.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Colorful</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-59.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Business</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-60.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Plant</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-61.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Animal</h1>
+                    </div>
+                </div>
+                <div class="flex card-style">
+                    <div>
+                        <img class="image-size-48" src="./image-62.png" alt="">
+                    </div>
+                    <div class="mt-10 ml-2">
+                        <h1>Animal</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Most View Iteam -->
+
+        <section class="mt-10 ml-2">
+            <div class="mb-6">
+                <h1 class="text-xl mt-6 font-bold">Most Viewed Items</h1>
+            </div>
+            <div class="gap-2  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6">
+                <div class="flex ">
+                    <div class="mt-20 viewd-circle ">
+                        <img class="" src="./Vector-left.png" alt="">
+                    </div>
+                    <div class="viewd-card ">
+                        <img class="size-64" src="./image-65.png" alt="">
+                        <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                        <div class="rating ml-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h1 class="ml-4">(121 Review)</h1>
+                        <div class="flex ml-4 gap-4">
+                            <p class="text-xl">$8.50</p>
+                            <p>$17-50%</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="viewd-card ">
+                        <img class="size-64" src="./image-67.png" alt="">
+                        <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                        <div class="rating ml-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h1 class="ml-4">(121 Review)</h1>
+                        <div class="flex ml-4 gap-4">
+                            <p class="text-xl">$8.50</p>
+                            <p>$17-50%</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="viewd-card ">
+                        <img class="size-64" src="./image-68.png" alt="">
+                        <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                        <div class="rating ml-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h1 class="ml-4">(121 Review)</h1>
+                        <div class="flex ml-4 gap-4">
+                            <p class="text-xl">$8.50</p>
+                            <p>$17-50%</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="viewd-card ">
+                        <img class="size-64" src="./image-69.png" alt="">
+                        <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                        <div class="rating ml-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h1 class="ml-4">(121 Review)</h1>
+                        <div class="flex ml-4 gap-4">
+                            <p class="text-xl">$8.50</p>
+                            <p>$17-50%</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="viewd-card ">
+                        <img class="size-64" src="./image-70.png" alt="">
+                        <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                        <div class="rating ml-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h1 class="ml-4">(121 Review)</h1>
+                        <div class="flex ml-4 gap-4">
+                            <p class="text-xl">$8.50</p>
+                            <p>$17-50%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex ">
+                    <div class="viewd-container">
+                        <div class="viewd-card ">
+                            <img class="size-64" src="./image-71.png" alt="">
+                            <h1 class="ml-4">Wireless Bluetooth <br> Headset Single Ear ...</h1>
+                            <div class="rating ml-4">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <h1 class="ml-4">(121 Review)</h1>
+                            <div class="flex ml-4 gap-4">
+                                <p class="text-xl">$8.50</p>
+                                <p>$17-50%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-20 viewd-circle mt-10">
+                        <img class="" src="./Vector.png" alt="">
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
+        </section>
+
+        <!-- Top Brand Section -->
+
+        <section class="mt-10 ml-4">
             <div>
-                <img src="./image-44.png" alt="">
-                <h1 class="font-bold ml-20">Aubergines</h1>
+                <h1 class="text-xl font-bold">Top Brands</h1>
             </div>
+
+            <div class="gap-4 flex count">
+                <div class="flex ">
+                    <div class="viewd-circle mt-12">
+                        <img src="./Vector-left.png" alt="">
+                    </div>
+                    <div class="Top-Brand">
+                        <img class="ml-2" src="./Top-brand-7.png" alt="">
+                        <h1>Brand Name</h1>
+                    </div>
+                </div>
+
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-6.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-5.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-4.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-3.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-2.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+                <div class="Top-Brand">
+                    <img class="ml-2" src="./Top-brand-1.png" alt="">
+                    <h1>Brand Name</h1>
+                </div>
+
+                <div class="flex ">
+
+                    <div class="Top-Brand">
+                        <img class="ml-2 Top-Brand1" src="./Biye.png" alt="">
+                        <h1 class="ml-2">Brand Name</h1>
+                    </div>
+                    <div class="viewd-circle mt-12">
+                        <img class="" src="./Vector.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weekly Top Vendors -->
+
+        <section class="mt-10 ml-6">
             <div>
-                <img src="./image-45.png" alt="">
-                <h1 class="font-bold ml-20">Fraises</h1>
+                <h1 class="text-xl font-bold">Weekly Top Vendors</h1>
             </div>
+
             <div>
-                <img src="./image-46.png" alt="">
-                <h1 class="font-bold ml-20">Radis</h1>
+                <div class="flex gap-2">
+                    <div>
+                        <img class="viewd-circle-1" src="./Group 229.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Pizza Hut</h1>
+                        <div class="flex">
+                            <div >
+                                <p>Items <br>
+                                    (400) <br> </span></p>
+                                   
+                            </div>
+
+                            <div class="rating ml-4">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>  <br>
+                              <span class="ml-4">(121 Review)
+                                
+                              
+                            </div>
+                            
+                        </div>
+                       <div>
+                        <!-- <div class="flex">
+                            <div>
+                                <img src="./image-72.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./image-73.png" alt="">
+                                <img src="./image-74.png" alt="">
+                            </div>
+                        </div> -->
+                       </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./image-47.png" alt="">
-                <h1 class="font-bold ml-20">Fèves vertes</h1>
-            </div>
-            
-          </div>
         </section>
     </main>
 </body>

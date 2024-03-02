@@ -68,14 +68,14 @@
  }
 
  .circle {
-     width: 70px;
-     height: 70px;
-     padding: 24px;
+     width: 60px;
+     height: 60px;
+     padding: 20px;
      border-radius: 999px;
-     gap: 16px;
+
      margin-top: 8px;
      background-color: #E6E7E7;
-    
+
 
  }
 
@@ -166,7 +166,7 @@
 
 
      padding: 8px;
-     gap: 8px;
+     gap: 10px;
      background-color: aliceblue;
 
  }
@@ -194,10 +194,17 @@
  }
 
  .on-selling {
-
+    
+    
      gap: 24px;
 
 
+ }
+ .on-seeling-1{
+    Width:
+    400px;
+    Height:
+    252px;
  }
 
  .banner {
@@ -216,7 +223,76 @@
 
  }
 
- 
+ .image-size-48 {
+     width: 140px;
+     height: 121.74px;
+
+ }
+
+ .card-style {
+     width: 250px;
+     height: 120px;
+     padding: 0px, 8px, 0px, 0px;
+     border: 1px;
+     gap: 6px;
+     background-color:
+         #E6E7E7;
+
+ }
+
+ .size-64 {
+     width: 188px;
+     height: 148px;
+
+ }
+
+ .viewd-card {
+     width: 190px;
+     height: 385px;
+     padding: 0px, 0px, 16px, 0px;
+
+     background-color:
+         #f7f4f4;
+
+ }
+
+ .viewd-circle {
+     width: 40px;
+     height: 40px;
+     padding: 15px;
+     border-radius: 999px;
+     border: 1px;
+     gap: 8px;
+     background-color: #E6E7E7;
+
+ }
+ .viewd-circle-1 {
+     width: 60px;
+     height: 60px;
+     padding: 15px;
+     border-radius: 999px;
+     border: 1px;
+     gap: 8px;
+     background-color: #E6E7E7;
+
+ }
+
+ .Top-Brand {
+     width: 167px;
+     height: 160px;
+     gap: 8px;
+     padding: 24px;
+
+     background-color: #E6E7E7;
+     margin-left: 10px;
+ }
+
+ .Top-Brand1{
+    width: 83px;
+height: 78px;
+
+
+ }
 
  @media (max-width: 570px) {
 
