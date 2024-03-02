@@ -130,6 +130,43 @@
 
  }
 
+ .image-size-1 {
+     width: 346px;
+     height: 305px;
+     gap: 8px;
+
+ }
+
+ .img-size-2 {
+     height: 24px;
+     width: 24px;
+ }
+
+ .size-2 {
+     width: 200px;
+     height: 40px;
+     padding: 4px;
+     border-radius: 8px;
+     
+
+
+ }
+
+ .add-to-cart {
+     width: 300px;
+     height: 40px;
+     padding: 8px;
+     gap: 10px;
+     background-color: #194E8A;
+
+ }
+.card-1{
+    width: 756px;;
+height: 353px;
+padding: 24px;
+gap: 16px;
+
+}
  @media (max-width: 570px) {
 
 
