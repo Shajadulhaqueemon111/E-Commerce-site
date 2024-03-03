@@ -117,7 +117,7 @@
  }
 
  .box-1 {
-     width: 366px;
+     width: 360px;
      height: 61px;
      padding: 8px, 16px, 8px, 16px;
      gap: 8px;
@@ -172,8 +172,8 @@
  }
 
  .sufa-1 {
-     width: 688px;
-     height: 226px;
+    justify-content: center; 
+     align-items: center;
 
  }
 
@@ -265,10 +265,10 @@
  .viewd-circle {
      width: 35px;
      height: 35px;
-     padding: 20px;
+     padding: 15px;
      border-radius: 999px;
      border: 1px;
-     gap: 8px;
+    
      background-color: #E6E7E7;
 
  }
@@ -276,7 +276,7 @@
  .viewd-circle-1 {
      width: 60px;
      height: 60px;
-     padding: 10px;
+     padding: 15px;
      border-radius: 999px;
      border: 1px;
      gap: 8px;
