@@ -194,17 +194,18 @@
  }
 
  .on-selling {
-    
-    
+
+
      gap: 24px;
 
 
  }
- .on-seeling-1{
-    Width:
-    400px;
-    Height:
-    252px;
+
+ .on-seeling-1 {
+     Width:
+         400px;
+     Height:
+         252px;
  }
 
  .banner {
@@ -266,6 +267,7 @@
      background-color: #E6E7E7;
 
  }
+
  .viewd-circle-1 {
      width: 60px;
      height: 60px;
@@ -287,11 +289,40 @@
      margin-left: 10px;
  }
 
- .Top-Brand1{
-    width: 83px;
-height: 78px;
+ .Top-Brand1 {
+     width: 83px;
+     height: 78px;
 
 
+ }
+
+ .Top-vendors-1 {
+     width: 124px;
+     height: 184px;
+     gap: 8px;
+     background-color: #E6E7E7;
+
+ }
+
+ .Top-vendors-2 {
+     width: 124px;
+     height: 89px;
+     border: 1px;
+     background-color: #E6E7E7;
+ }
+
+ .Top-vendors-3 {
+     width: 288px;
+     height: 314px;
+     padding: 16px;
+     gap: 16px;
+     background-color: #f7ecec;
+ }
+
+ .Banner-1 {
+     width: 440px;
+     height: 203.91px;
+   
  }
 
  @media (max-width: 570px) {
