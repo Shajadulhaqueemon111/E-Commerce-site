@@ -172,7 +172,7 @@
  }
 
  .sufa-1 {
-     width: 690px;
+     width: 688px;
      height: 226px;
 
  }
@@ -253,7 +253,7 @@
  }
 
  .viewd-card {
-     width: 190px;
+     width: 184px;
      height: 385px;
      padding: 0px, 0px, 16px, 0px;
 
@@ -263,9 +263,9 @@
  }
 
  .viewd-circle {
-     width: 40px;
-     height: 40px;
-     padding: 15px;
+     width: 35px;
+     height: 35px;
+     padding: 20px;
      border-radius: 999px;
      border: 1px;
      gap: 8px;
@@ -276,7 +276,7 @@
  .viewd-circle-1 {
      width: 60px;
      height: 60px;
-     padding: 20px;
+     padding: 10px;
      border-radius: 999px;
      border: 1px;
      gap: 8px;
