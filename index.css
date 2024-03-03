@@ -246,6 +246,11 @@
      height: 148px;
 
  }
+ .size-65 {
+     width: 188px;
+     height: 147px;
+
+ }
 
  .viewd-card {
      width: 190px;
@@ -317,12 +322,26 @@
      padding: 16px;
      gap: 16px;
      background-color: #f7ecec;
+
  }
 
  .Banner-1 {
      width: 440px;
      height: 203.91px;
-   
+     
+
+ }
+
+ .arrows-usa {
+     width: 160px;
+     height: 40px;
+     background-color:#F7F8F8 ;
+     gap: 8px;
+
+ }
+
+ .discoverd{
+    justify-content: space-between;
  }
 
  @media (max-width: 570px) {
